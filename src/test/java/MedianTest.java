@@ -13,7 +13,6 @@ public class MedianTest {
 
     @Test
     public void testMedianHN() {
-
     }
 
     @Test(dataProvider = "validNumberArrayProvider",
