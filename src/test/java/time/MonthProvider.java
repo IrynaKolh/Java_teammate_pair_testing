@@ -14,6 +14,7 @@ public class MonthProvider {
                 {32, new String[]{}},
                 {27, new String[]{}},
                 {1, new String[]{}},
+                {0, new String[]{}},
                 {null, new String[]{}},
         };
     }
