@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class Median {
     public double getMedian(int[] numbers) {
         if (numbers == null) {
-            return Double.MIN_VALUE;
+            return 0x0.0000000000001P-1022;
         }
         int size = numbers.length;
         if (size == 0) {
