@@ -1,7 +1,2 @@
-package median;
-
-
-
-public class MedianTest {
-
+package median;public class MedianTest {
 }
