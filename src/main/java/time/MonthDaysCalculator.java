@@ -27,13 +27,14 @@ public class MonthDaysCalculator {
 
     private static int getSize(int days) {
         return switch (days) {
+            case 28, 29 -> 1;
             case 31 -> 7;
             case 30 -> 4;
-            default -> 1;
+            default -> 0;
         };
     }
 
     public static boolean isValidDay(int days) {
-        return !(days < 1 || days > 31);
+        return !(days < 27 || days > 31);
     }
 }
